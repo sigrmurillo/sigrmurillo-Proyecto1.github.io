@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars Connect - Preguntas Frecuentes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            background-color: #f5f5f5; /* Gris claro */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente bonita */
+        }
+
+        h2 {
+            margin-top: 2rem;
+            color: #c59300; /* Mostaza más oscuro */
+        }
+
+        header {
+            background-color: #4b5a82; /* Color mostaza para el encabezado */
+            color: #eff2f6; /* Texto oscuro */
+        }
+
+        footer {
+            background-color: #4b5a82; /* Fondo oscuro para el pie de página */
+            color: #eff2f6; /* Texto blanco */
+        }
+
+        footer a {
+            color: #eff2f6; /* Color de enlaces en el footer */
+        }
+
+        .navbar {
+            background-color: #c59300; /* Fondo de la barra de navegación */
+        }
+
+        .nav-link {
+            color: #f4f6f8; /* Color de los enlaces */
+        }
+
+        nav.navbar a.nav-link:hover {
+            color: #4b5a82;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+        }
+
+        /* Footer - Redes sociales */
+        .social-links {
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0;
+        }
+
+        .social-links a {
+            color: eff2f6; /* Gris medio */
+            margin: 0 10px;
+            font-size: 1.5rem;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #c59300; /* Mostaza */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Encabezado -->
+    <header class="text-center p-4">
+        <h1>Preguntas Frecuentes</h1>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="Nosotros.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Servicios.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Contacto.html">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Preguntas.html">Preguntas Frecuentes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="AcercaDe.html">Acerca de</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <main class="container mt-4">
+        <h2>Preguntas Frecuentes</h2>
+        <div class="accordion" id="faqAccordion">
+
+            <!-- Pregunta 1 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                        ¿Cómo puedo comprar un auto en Cars Connect?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Para comprar un auto, simplemente navega por nuestro catálogo en línea, elige el auto que te
+                        interesa y contacta a nuestro equipo para programar una visita o realizar la compra en línea.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pregunta 2 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        ¿Puedo vender mi auto a través de Cars Connect?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Sí, puedes vender tu auto a través de nuestra plataforma. Simplemente llena el formulario en la
+                        sección de venta de autos, y nuestro equipo te ayudará con el proceso.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pregunta 3 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        ¿Qué servicios legales ofrecen para la compra y venta de autos?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Ofrecemos servicios legales para asegurar que la compra o venta de tu auto sea legal y segura,
+                        incluyendo la transferencia de propiedad, verificación de documentos, y más.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pregunta 4 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        ¿Qué tipo de autos venden?
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Vendemos autos usados en excelentes condiciones, de diferentes marcas y modelos, que han sido
+                        revisados por nuestro equipo de expertos para garantizar su calidad.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pregunta 5 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        ¿Ofrecen algún tipo de financiamiento?
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                    data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Sí, trabajamos con varias entidades financieras para ofrecer planes de financiamiento que se
+                        adapten a tus necesidades.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pregunta 6 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        ¿Qué incluye el servicio de asesoría personalizada?
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                    data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Nuestro servicio de asesoría personalizada incluye ayuda en la selección de autos, opciones de
+                        financiamiento, seguros, y todo el proceso de compra o venta del auto.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pregunta 7 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSeven">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        ¿Qué tipo de seguros ofrecen?
+                    </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                    data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Ofrecemos diferentes tipos de seguros para autos, incluyendo seguros de responsabilidad civil,
+                        seguros a todo riesgo, y más, para proteger tu inversión.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pregunta 8 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingEight">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                        ¿Cómo puedo contactarlos si tengo más preguntas?
+                    </button>
+                </h2>
+                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                    data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Puedes contactarnos a través de nuestro formulario de contacto en la página de Contacto o
+                        llamándonos al número proporcionado en la parte inferior de la página.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="text-center mt-4 p-3">
+        
+        <div class="social-links">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>&copy; 2024 Cars Connect. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+
+
+
